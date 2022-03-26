@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainEmployeeActivity">
+
+    <TextView
+        android:id="@+id/textViewEmployee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="@string/welcome_employee"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonInvoiceCreation"
+        android:layout_width="175dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/invoice_creation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewEmployee" />
+
+    <Button
+        android:id="@+id/buttonTreatmentCreation"
+        android:layout_width="175dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/treatment_creation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonInvoiceCreation" />
+
+    <Button
+        android:id="@+id/buttonAppointmentManagement"
+        android:layout_width="175dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/appointment_management"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonTreatmentCreation" />
+
+    <Button
+        android:id="@+id/buttonAppointmentProcedure"
+        android:layout_width="175dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/appointment_procedure"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonAppointmentManagement" />
+
+    <Button
+        android:id="@+id/buttonLogout"
+        android:layout_width="175dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/logout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonAppointmentProcedure" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Dental Clinic Management System</string>
+    <string name="title_activity_sign_up">SignUpActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="dentist_app">Dentist App</string>
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="submit">submit</string>
+    <string name="any_suggestion">Any Suggestion?</string>
+    <string name="how_was_your_experience">How was your Experience?</string>
+    <string name="first_name">First Name</string>
+    <string name="middle_name">Middle Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="ssn">SSN</string>
+    <string name="phone">Phone</string>
+    <string name="email">Email</string>
+    <string name="house_number">House Number</string>
+    <string name="street">Street</string>
+    <string name="city">City</string>
+    <string name="province">Province</string>
+    <string name="male">Male</string>
+    <string name="user_account_management">User Account Management</string>
+    <string name="logout">Logout</string>
+    <string name="manage_branch">Manage Branch</string>
+    <string name="manage_users">Manage Users</string>
+    <string name="welcome_admin">Welcome Admin</string>
+    <string name="treatment_creation">Treatment Creation</string>
+    <string name="invoice_creation">Invoice Creation</string>
+    <string name="welcome_employee">Welcome Employee</string>
+    <string name="appointment_procedure">Appointment Procedure</string>
+    <string name="appointment_management">Appointment Management</string>
+    <string name="list_of_branch">List of Branch</string>
+    <string name="back">Back</string>
+</resources>
